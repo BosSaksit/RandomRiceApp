@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col>
+        <ion-title>
+          RandomRice
+        </ion-title>
+      </ion-col>
+      <ion-col text-end>
+        <ion-button size="small" (click)="gotoAddRice()">
+          <ion-icon name="add"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center>
+  <!-- <div class="ion-padding">
+    The world is your oyster.
+    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be
+      your guide.</p>
+  </div> -->
+  <ion-button (click)="randomRice()">
+    Random Rice
+  </ion-button>
+  <!-- <ion-button (click)="randomRice()">
+     Stop Random Rice
+    </ion-button> -->
+  <!-- <div>
+      <ion-label>{{ timee }}</ion-label>
+    </div>
+  <div>
+    <ion-label>{{ count }}</ion-label>
+  </div> -->
+  <div>
+      <h3>{{ nameRice }}</h3>
+    </div>
+</ion-content>
